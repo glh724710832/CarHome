@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_search_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="6dp"
+    android:background="@drawable/search"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+
+    <ImageView
+        android:id="@+id/top_search_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/search" />
+
+    <EditText
+        android:id="@+id/search_edt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:hint="昂科威Plus"
+        android:textColor="@color/black"
+        android:textColorHint="#95A1AA" />
+
+
+</LinearLayout>
